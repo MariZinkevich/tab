@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tab {
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    background: #8a3c3c;
+    border-radius: 30px;
+}
