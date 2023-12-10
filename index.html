@@ -19,13 +19,18 @@
     <div class="added">
         <p>Added</p>
         <div class="add_block_btn">
-            <button class="size-btn">1</button>
-            <button class="size-btn">2</button>
-            <button class="size-btn">3</button>
+            <button class="add-btn">1</button>
+            <button class="add-btn">2</button>
+            <button class="add-btn">3</button>
         </div>
     </div>
     <p>TOTAL</p>
-    <p>0</p>
-  </div>  
+    <p class="total">0</p>
+  </div>
+  <script>
+    const sizeBtns = document.querySelectorAll('.size-btn');
+    const addBtns = document.querySelectorAll('.add-btn');
+    const total = document.querySelector('.total');
+  </script>
 </body>
 </html>
